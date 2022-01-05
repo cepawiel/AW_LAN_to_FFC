@@ -1,0 +1,3 @@
+[submodule "DreamcastPCBLibs"]
+	path = DreamcastPCBLibs
+	url = git@github.com:cepawiel/DreamcastPCBLibs.git
