@@ -53,7 +53,7 @@
     )
     (pad_to_mask_clearance 0)
     (pcbplotparams
-      (layerselection 0x00010fc_ffffffff)
+      (layerselection 0x00010f0_ffffffff)
       (disableapertmacros false)
       (usegerberextensions false)
       (usegerberattributes true)
@@ -81,9 +81,9 @@
       (subtractmaskfromsilk false)
       (outputformat 1)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "")
+      (outputdirectory "plots/")
     )
   )
 
@@ -396,6 +396,9 @@
   (gr_line (start 159.766 76.454) (end 159.766 87.376) (layer "Edge.Cuts") (width 0.1) (tstamp cc593834-034b-404b-8f85-eac9af921408))
   (gr_line (start 126.746 76.454) (end 159.766 76.454) (layer "Edge.Cuts") (width 0.1) (tstamp d76ec66c-d0c1-4040-8259-8685c076073a))
   (gr_line (start 167.894 88.392) (end 167.894 99.568) (layer "Edge.Cuts") (width 0.1) (tstamp fe0a8ab1-7b25-4d9a-9a3b-f8c5e10b289a))
+  (gr_text "Atomiswave LAN to FFC\ncepawiel/AW_LAN_to_FFC\nV1.0" (at 143.764 86.36) (layer "F.SilkS") (tstamp 6325c32f-c82a-4357-b022-f9c7e76f412e)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
 
   (via (at 160.02 88.9) (size 0.5) (drill 0.3) (layers "F.Cu" "B.Cu") (free) (net 1) (tstamp 094d80bd-35d7-4ff5-8490-3b51422c597b))
   (via (at 157.48 83.82) (size 0.5) (drill 0.3) (layers "F.Cu" "B.Cu") (free) (net 1) (tstamp 0a5843fe-9e27-4812-b54d-7cb5c78c7315))
